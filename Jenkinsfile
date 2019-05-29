@@ -16,12 +16,7 @@ node{
             }
 
         }
-        stage('test'){
-            steps{
-                echo 'skiping test'
-            }
 
-        }
         stage('publish'){
             steps{
                 echo 'Publishing to docker hub'
@@ -29,17 +24,7 @@ node{
             }
 
         }
-        stage('post-action'){
-            steps{
-                echo 'Triggering email notification'
-            }
-
-        }
-        stage('deploy-Dev'){
-            steps{
-                echo 'deploying to DEV'
-            }
-
-        }
-    }
+   
+     
+    
 }
