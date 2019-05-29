@@ -1,6 +1,4 @@
-pipeline{
-    agent any
-    stages{
+node{
         stage('checkout'){
             steps{
                 checkout([$class: 'GitSCM',
@@ -45,5 +43,5 @@ pipeline{
             }
 
         }
-    }
+
 }
