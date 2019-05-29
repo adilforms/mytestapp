@@ -1,0 +1,27 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "testing docker package",
+  "main": "CB.js",
+  "scripts": {
+    "test": "simple"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilforms/Nodejssample.git"
+  },
+  "keywords": [
+    "testing",
+    "myapp",
+    "nodejs"
+  ],
+  "author": "Emad",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/adilforms/Nodejssample/issues"
+  },
+  "homepage": "https://github.com/adilforms/Nodejssample#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
